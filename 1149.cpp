@@ -10,7 +10,6 @@ int main()
 {
     cin.getline(s, 500);
     int len = strlen(s);
-    s[len] = ' '; s[len + 1] = '\0';
 
     int c = 0, maxLen = -1, maxStart = 0;
     char ans[50];
